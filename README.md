@@ -4,8 +4,8 @@
 
 [![Python](https://img.shields.io/badge/Python-3.7+-3776AB.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
-[![Issues](https://img.shields.io/github/issues/Xznder1984/IP-Tracker-Pro)](https://github.com/Xznder1984/IP-Tracker-Pro/issues)
-[![Stars](https://img.shields.io/github/stars/Xznder1984/IP-Tracker-Pro?style=social)](https://github.com/Xznder1984/IP-Tracker-Pro/stargazers)
+[![Issues](https://img.shields.io/github/issues/Xznder1984/IP-Tracker)](https://github.com/Xznder1984/IP-Tracker/issues)
+[![Stars](https://img.shields.io/github/stars/Xznder1984/IP-Tracker?style=social)](https://github.com/Xznder1984/IP-Tracker-Pro/stargazers)
 
 **Enterprise-grade IP geolocation with user authentication, real/fake detection, and multi-API failover.**
 
@@ -31,8 +31,8 @@
 
 ```bash
 # 1. Clone
-git clone https://github.com/Xznder1984/IP-Tracker-Pro.git
-cd IP-Tracker-Pro
+git clone https://github.com/Xznder1984/IP-Tracker.git
+cd IP-Tracker
 
 # 2. Install (1 line!)
 pip install -r requirements.txt
@@ -42,8 +42,6 @@ python tracker.py
 First run creates name.hash (your encrypted identity)
 
 📊 Live Results
-
-
 
 👤 Logged in as: User-A1B2C3D4
 ✅ IP IS REAL/PUBLIC
@@ -55,7 +53,6 @@ ISP:     Google LLC
 IP:      8.8.8.8
 🧪 Test Cases
 
-
 IP Address	Result	Reason
 8.8.8.8	✅ Real	Google DNS
 1.1.1.1	✅ Real	Cloudflare
@@ -66,10 +63,9 @@ IP Address	Result	Reason
 First run: Enter name → Creates name.hash (SHA-256 encrypted)
 Future runs: Auto-detects user from hash file
 Privacy: Name never stored in plain text
+
 📦 Installation
 bash
-
-
 
 # Full setup
 pip install requests colorama pathlib
@@ -77,8 +73,6 @@ pip install requests colorama pathlib
 # Or use requirements.txt
 pip install -r requirements.txt
 🤖 Commands
-
-
 
 [IP_ADDRESS] → Track IP
 exit         → Quit
@@ -131,4 +125,5 @@ Community - Bug reports & features
 
 ⭐ Star if useful! 🚀
 Made with ❤️ for the cybersecurity community
+
 ```
