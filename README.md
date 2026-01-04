@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 IP Tracker Pro - Advanced IP Intelligence Suite
+# 🚀 IP Tracker - Advanced IP Intelligence Suite
 
 [![Python](https://img.shields.io/badge/Python-3.7+-3776AB.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
@@ -127,3 +127,4 @@ Community - Bug reports & features
 Made with ❤️ for the cybersecurity community
 
 ```
+
