@@ -1,2 +1,3 @@
 requests==2.31.0
+pathlib
 colorama==0.4.6
